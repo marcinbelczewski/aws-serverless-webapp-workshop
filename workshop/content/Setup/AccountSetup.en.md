@@ -8,14 +8,8 @@ weight = 10
 
 ## Region selection
 
-Use a single region for the duration of this workshop. This workshop supports the following regions:
-
-- us-west-2 (US West - Oregon)
-- us-east-2 (US East - Ohio)
-- us-east-1 (US East - Northern Virginia)
-- eu-central-1 (Europe - Frankfurt)
-
-Please select one of these in the top right corner.
+Use a single region - **US East - Northern Virginia (us-east-1)** for the duration of this workshop.
+Please select **US East - Northern Virginia** in the top right corner.
 
 ![Step 3](/images/c9-step3.png)
 
@@ -33,7 +27,8 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 2. Select **Create environment**.
 
-3. Enter `wildrydes-webapp-development` into **Name** and optionally provide a **Description**.
+3. Enter `%INITIALS%-wildrydes-webapp-development` into **Name** and optionally provide a **Description**. `%INITIALS%-` means prefixing resource name with participant's initials to avoid resources names clashes with other workshop participants.
+For example in the picture below participant *Jan Nowak*, with *jn* initials, creates the Cloud9 environment named `jn-wildrydes-webapp-development`.
 
 ![Step 5](/images/c9-step5.png)
 
@@ -41,7 +36,8 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 5. In **Environment settings**:
 - Set the *Instance type* to **t2.micro (1 GiB RAM + 1 vCPU)**.
-- Leave all other defaults unchanged.
+- Choose **training | vpc-0f41a5893958f5b6e** as *Network (VPC)*
+- Choose **training-public-a** or **training-public-b** as *Subnet*
 
 ![Step 6](/images/c9-step6-b.png)
 

@@ -8,8 +8,6 @@ weight = 99
 
 ### :star: Recap
 
-:key: Use a unique personal, development, or [Event Engine][event-engine] AWS account
-
 :key: Keep your [AWS Cloud9 IDE][aws-cloud9-ide] opened in a tab
 
 ### Next
