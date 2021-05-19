@@ -14,7 +14,7 @@ Every Lambda function has an [IAM][iam] role associated with it. This role defin
 
 #### High-Level Instructions
 
-Use the IAM console to create a new role. Name it `WildRydesLambda` and select AWS Lambda for the role type. You'll need to attach policies that grant your function permissions to write to Amazon CloudWatch Logs and put items to your DynamoDB table.
+Use the IAM console to create a new role. Name it `%INITIALS%-WildRydesLambda` and select AWS Lambda for the role type. You'll need to attach policies that grant your function permissions to write to Amazon CloudWatch Logs and put items to your DynamoDB table.
 
 Attach the managed policy called `AWSLambdaBasicExecutionRole` to this role to grant the necessary CloudWatch Logs permissions. Also, create a custom inline policy for your role that allows the `dynamodb:PutItem` action for the table you created in the previous section.
 
@@ -29,14 +29,14 @@ Selecting a role type automatically creates a trust policy for your role that al
 1. Begin typing `AWSLambdaBasicExecutionRole` in the **Filter** text box and check the box next to that role.
 1. Click **Next: Tags**. Add any tags that you wish.
 1. Click **Next: Review**.
-1. Enter `WildRydesLambda` for the **Role name**.
+1. Enter `%INITIALS%-WildRydesLambda` for the **Role name**. Remember about your initials prefix!
 1. Choose **Create role**. 
 
 Next you need to add permissions to the role so that it can access your DynamoDB table.
 
 **:white_check_mark: Step-by-step directions*
 
-1. While in the IAM Console on the roles page type `WildRydesLambda` into the filter box on the Roles page and choose the role you just created.
+1. While in the IAM Console on the roles page type `%INITIALS%-WildRydesLambda` into the filter box on the Roles page and choose the role you just created.
 1. On the Permissions tab, choose the **Add inline policy** link in the upper right corner to create a new inline policy.
     ![Inline policies screenshot](/images/inline-policies.png)
 1. Select **Choose a service**.
