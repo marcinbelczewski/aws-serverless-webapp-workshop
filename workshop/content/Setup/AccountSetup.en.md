@@ -8,8 +8,8 @@ weight = 10
 
 ## Region selection
 
-Use a single region - **US East - Northern Virginia (us-east-1)** for the duration of this workshop.
-Please select **US East - Northern Virginia** in the top right corner.
+Use a single region - **US East (N. Virginia)**, also known as **us-east-1**, for the duration of this workshop.
+Please select **US East (N. Virginia)** in the top right corner.
 
 ![Step 3](/images/c9-step3.png)
 

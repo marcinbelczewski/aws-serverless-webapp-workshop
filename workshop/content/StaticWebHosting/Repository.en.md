@@ -16,10 +16,10 @@ The AWS Cloud9 development environment comes with AWS managed temporary credenti
 
 #### Setting up your CodeCommit repository
 
-1.  First, create a new CodeCommit repository:
+1.  First, create a new CodeCommit repository remembering to prefix it with your initials:
     ```
     aws codecommit create-repository \
-      --repository-name wild-rydes
+      --repository-name %INITIALS%-wild-rydes
     ```
 1.  Clone the existing (not new) workshop repository from GitHub:
     ```
@@ -47,9 +47,9 @@ The AWS Cloud9 development environment comes with AWS managed temporary credenti
     ```
     git pull ../aws-serverless-webapp-workshop WildRydesVue
     ```
-1.  Add your CodeCommit repository as a remote:
+1.  Add your CodeCommit repository as a remote. Adjust the %INITIALS% prefix in the command below to match your CodeCommit repository prefix:
     ```
-    git remote add origin codecommit://wild-rydes
+    git remote add origin codecommit://%INITIALS%-wild-rydes
     ```
 1.  Push the code to your new CodeCommit repository:
     ```

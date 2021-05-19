@@ -8,16 +8,8 @@ weight = 10
 
 ### 1. Region Selection
 
-This workshop step can be deployed in any AWS region that supports the following services:
-
-- AWS Amplify Console
-- AWS CodeCommit
-
-You can refer to the [AWS region table][region-services] in the AWS documentation to see which regions have the supported services. Among the supported regions you can choose are:
-
-* North America: N. Virginia, Ohio, Oregon
-* Europe: Ireland, London, Frankfurt
-* Asia Pacific: Tokyo, Seoul, Singapore, Sydney, Mumbai
+Use a single region - **US East (N. Virginia)**, also known as **us-east-1**, for the duration of this workshop.
+Please select **US East (N. Virginia)** in the top right corner.
 
 Once you've chosen a region, you should deploy all of the resources for this workshop there. Make sure you select your region from the dropdown in the upper right corner of the AWS Console before getting started.
 

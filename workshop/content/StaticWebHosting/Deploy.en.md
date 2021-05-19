@@ -24,11 +24,13 @@ Depending on your console and account settings, you may not see the **Get Starte
 Now you need to create a new service role with the permissions to deploy the application backend.  
 
 1. Click on **Create new role**, check that **Amplify** is selected and click **Next permissions**, click **Next: Tags**, click **Next: Review**.  
-1. Give the Role a new name: `wildrydes-backend-role` and click **Create role**.  Close this tab and return to the AWS Amplify Build configure console.
+1. Give the Role a new name: `%INITIALS%-wildrydes-backend-role` with your initials as prefix, and click **Create role**.  Close this tab and return to the AWS Amplify Build configure console.
 
 1. Refresh the role list by clicking on the circular arrow button, and select the role created in the step above.
     
-    ![Amplify Repository configuration](/images/amplifyConsole-setup-new1.png)
+In the picture below prefixes are for sample user *Jan Nowak* with *jn* as initials.
+
+![Amplify Repository configuration](/images/amplifyConsole-setup-new1.png)
 1. Select **Next**
 1. On the **Review** page select **Save and deploy**
     
