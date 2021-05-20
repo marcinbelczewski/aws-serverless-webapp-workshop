@@ -41,6 +41,15 @@ Once configuration completes you see the following confirmation:
 Do not run `amplify push` or `amplify publish` - this will create duplicate backend resources. Amplify Console creates the necessary resources when you push your code to your repository.
 {{% /notice %}}
 
+**:warning: A new Cognito User Pool will be created for you. You need to learn the name of newly created user pool, to distinguish it from other user pools. To learn the name, do the following:**
+
+1. In Cloud9 repository, locate `wild-rydes/amplify/backend/auth` folder that was created by  ```amplify add auth``` command.
+1. Locate subfolder prefixed with `wildrydes` and parameters.json file inside. 
+1. In parameters.json file locate **userPoolName** property. Cognito User Pool name will consist of the value of **userPoolName** property suffixed with environment name. For example in picture below, **userPoolName** is **wildrydes6f227ebc_userpool_6f227ebc**, hence the Cognito User Pool name will be **wildrydes6f227ebc_userpool_6f227ebc-prod**
+
+    ![Folder indicating Cognito User Pool name](/images/cognito-user-pool-name.png)
+    ![Cognito User Pool name](/images/cognito-user-pool-name2.png)
+
 Committing your code updates to provision your Amplify backend resources in the cloud and kick off a new build.
 
 1. Commit the changes to your git repository:

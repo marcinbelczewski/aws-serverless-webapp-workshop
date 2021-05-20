@@ -29,7 +29,7 @@ Selecting a role type automatically creates a trust policy for your role that al
 1. Begin typing `AWSLambdaBasicExecutionRole` in the **Filter** text box and check the box next to that role.
 1. Click **Next: Tags**. Add any tags that you wish.
 1. Click **Next: Review**.
-1. Enter `%INITIALS%-WildRydesLambda` for the **Role name**. Remember about your initials prefix!
+1. Enter `%INITIALS%-WildRydesLambda` for the **Role name**. **:warning:** Remember about your initials prefix!
 1. Choose **Create role**. 
 
 Next you need to add permissions to the role so that it can access your DynamoDB table.

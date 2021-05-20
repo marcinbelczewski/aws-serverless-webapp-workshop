@@ -28,7 +28,7 @@ Now you need to create a new service role with the permissions to deploy the app
 
 1. Refresh the role list by clicking on the circular arrow button, and select the role created in the step above.
     
-In the picture below prefixes are for sample user *Jan Nowak* with *jn* as initials.
+**:warning:** In the picture below prefixes are for sample user *Jan Nowak* with *jn* as initials.
 
 ![Amplify Repository configuration](/images/amplifyConsole-setup-new1.png)
 1. Select **Next**

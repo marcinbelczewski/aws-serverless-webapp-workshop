@@ -27,7 +27,7 @@ Create a new resource called _/ride_ within your API. Then create a _POST_ metho
 1. Select **Lambda Function** for the integration type.
 1. Check the box for **Use Lambda Proxy integration**.
 1. Select the Region you are using for **Lambda Region**.
-1. Enter the name of the function you created in the previous module, `RequestUnicorn`, for **Lambda Function**.
+1. Enter the name of the function you created in the previous module, `%INITIALS%-RequestUnicorn`, for **Lambda Function**. **:warning:** Remember about your initials as prefix!. In the picture below function name's prefix is for sample user *Jan Nowak* with *jn* as initials.
 1. Choose **Save**. Please note, if you get an error that you function does not exist, check that the region you selected matches the one you used in the previous module.
 
     ![API method integration screenshot](/images/api-integration-setup.png)

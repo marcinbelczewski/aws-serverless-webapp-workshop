@@ -27,7 +27,7 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 2. Select **Create environment**.
 
-3. Enter `%INITIALS%-wildrydes-webapp-development` into **Name** and optionally provide a **Description**. `%INITIALS%-` means prefixing resource name with participant's initials to avoid resources names clashes with other workshop participants.
+3. Enter `%INITIALS%-wildrydes-webapp-development` into **Name** and optionally provide a **Description**. **:warning:** `%INITIALS%-` means prefixing resource name with participant's initials to avoid resources names clashes with other workshop participants.
 For example in the picture below participant *Jan Nowak*, with *jn* initials, creates the Cloud9 environment named `jn-wildrydes-webapp-development`.
 
 ![Step 5](/images/c9-step5.png)

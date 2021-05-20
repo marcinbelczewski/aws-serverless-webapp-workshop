@@ -14,7 +14,7 @@ Use the Amazon API Gateway console to create a new API named `WildRydes`.
 1. Go to the [Amazon API Gateway Console][api-gw-console]
 1. On the **REST API** card, choose **Build**.
 1. In the section **Create new API** select _New API_ to clear the example API definition.
-1. Enter `WildRydes` for the **API Name**.
+1. Enter `%INITIALS%-WildRydes` for the **API Name**. **:warning:** Remember about your initials prefix!
 1. Select `Regional` from the **Endpoint Type** dropdown.
 {{% notice note %}}
 Edge optimized APIs are best for public services being accessed from the Internet. Regional endpoints are typically used for APIs that are accessed primarily from within the same AWS Region. Private APIs are for internal services inside of an Amazon VPC.

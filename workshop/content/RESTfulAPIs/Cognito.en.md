@@ -9,7 +9,7 @@ weight = 20
 ### 2. Create a Cognito User Pools Authorizer
 
 #### Background
-Amazon API Gateway can use the JWT tokens returned by Cognito User Pools to authenticate API calls. In this step you'll configure an authorizer for your API to use the user pool you created in [User Management][user-management].
+Amazon API Gateway can use the JWT tokens returned by Cognito User Pools to authenticate API calls. In this step you'll configure an authorizer for your API to use the user pool you created in [User Management]({{< ref "/UserManagement/UserPool.en.md" >}}).
 
 #### High-Level Instructions
 In the Amazon API Gateway console, create a new Cognito user pool authorizer for your API. Configure it with the details of the user pool that you created in the previous module. You can test the configuration in the console by copying and pasting the auth token presented to you after you log in via the _/signin_ route of your current website.
@@ -21,7 +21,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 1. Enter `WildRydes` for the Authorizer name.
 1. Select **Cognito** for the type.
 1. In the Region drop-down under **Cognito User Pool**, select the Region where you created your Cognito user pool in the User Management module (by default the current region should be selected).
-1. Enter `wildrydes` in the **Cognito User Pool** input, the name will auto-complete and allow you to select the name of the user pool that was generated when the user pool was created.
+1. Enter `wildrydes` in the **Cognito User Pool** input, the name will auto-complete and allow you to select the name of the user pool that was generated when the user pool was created. **:warning:** Ensure you have not selected another workshop participant's user pool! If you forgot the name of your Cognito User Pool, refer to [User Management]({{< ref "/UserManagement/UserPool.en.md" >}}) for instructions on how to retrieve it.
 1. Enter `Authorization` for the **Token Source**.
 1. Choose **Create**.
 

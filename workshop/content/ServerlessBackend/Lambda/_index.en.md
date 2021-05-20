@@ -23,7 +23,7 @@ Configure your function to use the `WildRydesLambda` IAM role you created in the
 1. Go to the [AWS Lambda console][lambda-console]
 1. Click **Create function**.
 1. Keep the default **Author from scratch** card selected.
-1. Enter `%INITIALS%-RequestUnicorn` in the **Name** field. Remember about your initials prefix!
+1. Enter `%INITIALS%-RequestUnicorn` in the **Name** field. **:warning:** Remember about your initials prefix!
 1. Select **Node.js 12.x** for the **Runtime**.
 1. Expand *Change default execution role* under **Permissions**.
 1. Ensure `Use an existing role` is selected from the **Role** dropdown.
@@ -32,7 +32,7 @@ Configure your function to use the `WildRydesLambda` IAM role you created in the
 1. Choose **Create function**.
 1. Scroll down to the **Function code** section and replace the existing code in the **index.js** code editor with the contents of [requestUnicorn.js](requestUnicorn.js).
     ![Create Lambda function screenshot](/images/create-lambda-function-code.png)
-1. **Update the code to connect to a prefixed DynamoDB table rather than default non-prefixed**. In the picture below prefix is for sample user *Jan Nowak* with *jn* as initials.
+1. **:warning: Update the code to connect to a prefixed DynamoDB table rather than default non-prefixed!**. In the picture below prefix is for sample user *Jan Nowak* with *jn* as initials.
     ![Update Lambda DynamoDB call](/images/update-lambda-function-code.png)
 
 1. Click **Deploy** button above the code editor.

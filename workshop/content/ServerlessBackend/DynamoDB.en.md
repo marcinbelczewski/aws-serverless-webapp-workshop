@@ -16,7 +16,7 @@ After you've created the table, record the ARN for use in the next step.
 
 1. Go to the [Amazon DynamoDB Console][dynamodb-console]
 1. Choose **Create table**.
-1. Enter `%INITIALS%-Rides` for the **Table name**. This field is case sensitive. Remember about your initials prefix!
+1. Enter `%INITIALS%-Rides` for the **Table name**. This field is case sensitive. **:warning:** Remember about your initials prefix!
 1. Enter `RideId` for the **Partition key** and select **String** for the key type. This field is case sensitive.
 1. Check the **Use default settings** box and choose **Create**.
     ![Create table screenshot](/images/ddb-create-table.png)
