@@ -18,23 +18,23 @@ Create a new resource called _/ride_ within your API. Then create a _POST_ metho
 1. Select **Enable API Gateway CORS** for the resource.
 1. Choose **Create Resource**.
 
-    ![Create resource screenshot](/images/create-resource.png)
+    ![Create resource screenshot](/aws-serverless-webapp-workshop/images/create-resource.png)
 
 1. With the newly created `/ride` resource selected, from the **Action** dropdown select **Create Method**.
 1. Select `POST` from the new dropdown that appears, then **click the checkmark**.
 
-    ![Create method screenshot](/images/create-method.png)
+    ![Create method screenshot](/aws-serverless-webapp-workshop/images/create-method.png)
 1. Select **Lambda Function** for the integration type.
 1. Check the box for **Use Lambda Proxy integration**.
 1. Select the Region you are using for **Lambda Region**.
 1. Enter the name of the function you created in the previous module, `%INITIALS%-RequestUnicorn`, for **Lambda Function**. **:warning:** Remember about your initials as prefix!. In the picture below function name's prefix is for sample user *Jan Nowak* with *jn* as initials.
 1. Choose **Save**. Please note, if you get an error that you function does not exist, check that the region you selected matches the one you used in the previous module.
 
-    ![API method integration screenshot](/images/api-integration-setup.png)
+    ![API method integration screenshot](/aws-serverless-webapp-workshop/images/api-integration-setup.png)
 
 1. When prompted to give Amazon API Gateway permission to invoke your function, choose **OK**.
 1. Select the **Method Request** card.
 1. Choose the pencil icon next to **Authorization**.
 1. Select the WildRydes Cognito user pool authorizer from the drop-down list, and click the checkmark icon.
 
-    ![API authorizer configuration screenshot](/images/api-authorizer.png)
+    ![API authorizer configuration screenshot](/aws-serverless-webapp-workshop/images/api-authorizer.png)

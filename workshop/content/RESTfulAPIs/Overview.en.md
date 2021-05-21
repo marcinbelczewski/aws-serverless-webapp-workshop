@@ -8,7 +8,7 @@ weight = 1
 
 In this module you use API Gateway to expose the Lambda function you built in the [previous module][serverless-backend] as a RESTful API. This API will be accessible on the public Internet. It will be secured using the Amazon Cognito user pool you created in the [User Management][user-management] module. Using this configuration you will then turn your statically hosted website into a dynamic web application by adding client-side JavaScript that makes AJAX calls to the exposed APIs.
 
-![Dynamic web app architecture](/images/restful-api-architecture.png)
+![Dynamic web app architecture](/aws-serverless-webapp-workshop/images/restful-api-architecture.png)
 
 The preceding diagram shows how API Gateway integrates with the existing components you built previously.
 

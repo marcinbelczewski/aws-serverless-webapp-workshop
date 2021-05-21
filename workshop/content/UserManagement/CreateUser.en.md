@@ -43,4 +43,4 @@ If you get an ` Authentication Error  ` this is likely because your changes have
 
 1. If successful you should be redirected to `/ride`. You should see a notification that the API is not configured.
 
-    ![Successful login screenshot](/images/successful-login.png)
+    ![Successful login screenshot](/aws-serverless-webapp-workshop/images/successful-login.png)

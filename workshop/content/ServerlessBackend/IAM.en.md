@@ -38,10 +38,10 @@ Next you need to add permissions to the role so that it can access your DynamoDB
 
 1. While in the IAM Console on the roles page type `%INITIALS%-WildRydesLambda` into the filter box on the Roles page and choose the role you just created.
 1. On the Permissions tab, choose the **Add inline policy** link in the upper right corner to create a new inline policy.
-    ![Inline policies screenshot](/images/inline-policies.png)
+    ![Inline policies screenshot](/aws-serverless-webapp-workshop/images/inline-policies.png)
 1. Select **Choose a service**.
 1. Begin typing `DynamoDB` into the search box labeled **Find a service** and select **DynamoDB** when it appears.
-    ![Select policy service](/images/select-policy-service.png)
+    ![Select policy service](/aws-serverless-webapp-workshop/images/select-policy-service.png)
 1. Choose **Select actions**.
 1. Begin typing `PutItem` into the search box labeled **Filter actions** and check the box next to **PutItem** when it appears.
 1. Select the **Resources** section.
@@ -49,7 +49,7 @@ Next you need to add permissions to the role so that it can access your DynamoDB
 1. Paste the ARN of the table you created in the previous section in the **Specify ARN for table** field, and choose **Add**.
 1. Choose **Review Policy**.
 1. Enter `DynamoDBWriteAccess` for the policy name and choose **Create policy**.
-    ![Review Policy](/images/review-policy.png)
+    ![Review Policy](/aws-serverless-webapp-workshop/images/review-policy.png)
 
 [cloudwatch]: https://aws.amazon.com/cloudwatch/
 [iam]: https://aws.amazon.com/iam/

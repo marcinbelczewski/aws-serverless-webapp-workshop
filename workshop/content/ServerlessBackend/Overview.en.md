@@ -10,7 +10,7 @@ In this module you'll use [AWS Lambda][lambda] and [Amazon DynamoDB][dynamodb] t
 
 You'll implement a Lambda function that will be invoked each time a user requests a unicorn. The function selects a unicorn from the fleet, records the request in a DynamoDB table, and responds to the front-end application with details about the dispatched unicorn.
 
-![Serverless backend architecture](/images/serverless-backend-architecture.png)
+![Serverless backend architecture](/aws-serverless-webapp-workshop/images/serverless-backend-architecture.png)
 
 The function is invoked from the browser using [Amazon API Gateway][api-gw]. You implement that connection in the next module. For this module, you test your function in isolation.
 

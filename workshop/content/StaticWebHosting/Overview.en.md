@@ -12,7 +12,7 @@ In this module you'll configure AWS Amplify Console to host the static resources
 
 The architecture for this module is very straightforward. All of your static web content including HTML, CSS, JavaScript, images and other files will be managed by AWS Amplify Console and served via Amazon CloudFront. Your end users will then access your site using the public website URL exposed by AWS Amplify Console. You don't need to run any web servers or use other services in order to make your site available.
 
-![Static website architecture](/images/static-website-architecture.png)
+![Static website architecture](/aws-serverless-webapp-workshop/images/static-website-architecture.png)
 
 ## Implementation Instructions
 

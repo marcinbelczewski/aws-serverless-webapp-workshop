@@ -19,7 +19,7 @@ After you've created the table, record the ARN for use in the next step.
 1. Enter `%INITIALS%-Rides` for the **Table name**. This field is case sensitive. **:warning:** Remember about your initials prefix!
 1. Enter `RideId` for the **Partition key** and select **String** for the key type. This field is case sensitive.
 1. Check the **Use default settings** box and choose **Create**.
-    ![Create table screenshot](/images/ddb-create-table.png)
+    ![Create table screenshot](/aws-serverless-webapp-workshop/images/ddb-create-table.png)
 1. Scroll to the bottom of the Overview section of your new table and record the **ARN**. You will use this in the next section.
 
 [dynamodb]: https://aws.amazon.com/dynamodb

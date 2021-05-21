@@ -11,7 +11,7 @@ weight = 10
 Use a single region - **US East (N. Virginia)**, also known as **us-east-1**, for the duration of this workshop.
 Please select **US East (N. Virginia)** in the top right corner.
 
-![Step 3](/images/c9-step3.png)
+![Step 3](/aws-serverless-webapp-workshop/images/c9-step3.png)
 
 ## Starting AWS Cloud9 IDE
 
@@ -23,14 +23,14 @@ Your Cloud9 environment will have access to the same AWS resources as the user w
 
 1. From the AWS Management Console, Select **Services** then select **Cloud9** under Developer Tools. 
 
-![Step 4](/images/c9-step4.png)
+![Step 4](/aws-serverless-webapp-workshop/images/c9-step4.png)
 
 2. Select **Create environment**.
 
 3. Enter `%INITIALS%-wildrydes-webapp-development` into **Name** and optionally provide a **Description**. **:warning:** `%INITIALS%-` means prefixing resource name with participant's initials to avoid resources names clashes with other workshop participants.
 For example in the picture below participant *Jan Nowak*, with *jn* initials, creates the Cloud9 environment named `jn-wildrydes-webapp-development`.
 
-![Step 5](/images/c9-step5.png)
+![Step 5](/aws-serverless-webapp-workshop/images/c9-step5.png)
 
 4. Select **Next step**.
 
@@ -39,7 +39,7 @@ For example in the picture below participant *Jan Nowak*, with *jn* initials, cr
 - Choose **training | vpc-0f41a5893958f5b6e** as *Network (VPC)*
 - Choose **training-public-a** or **training-public-b** as *Subnet*
 
-![Step 6](/images/c9-step6-b.png)
+![Step 6](/aws-serverless-webapp-workshop/images/c9-step6-b.png)
 
 6. Select **Next step**.
 
@@ -49,7 +49,7 @@ For example in the picture below participant *Jan Nowak*, with *jn* initials, cr
 
 1. Once ready, your IDE will open to a welcome screen. Below that, you should see a terminal prompt. Close the Welcome tab and drag up the terminal window to give yourself more space to work in. 
 
-![Step 7](/images/c9-step7.png)
+![Step 7](/aws-serverless-webapp-workshop/images/c9-step7.png)
 
 - You can run AWS CLI commands in here just like you would on your local computer. Remember for this workshop to run all commands within the Cloud9 terminal window rather than on your local computer.
 - Keep your AWS Cloud9 IDE opened in a browser tab throughout this workshop.

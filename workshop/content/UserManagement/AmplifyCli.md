@@ -45,7 +45,7 @@ The terminal will now take a few moments to initialize your project:
 Be sure to provide the same environment name that you provided earlier, for example, **prod**.
 {{% /notice %}}
 
-![Amplify init screenshot](/images/amplify-init.png)
+![Amplify init screenshot](/aws-serverless-webapp-workshop/images/amplify-init.png)
 
 Verify that the initialization has finished by entering the following command. Version 4.29.3 or greater should be installed.
 

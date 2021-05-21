@@ -17,4 +17,4 @@ From the Amazon API Gateway console, choose Actions, Deploy API. You'll be promp
 1. Choose **Deploy**.
 1. Record the **Invoke URL**. You will use it in the next section.
 
- ![Invoke URL](/images/API-invokeURL.png)
+ ![Invoke URL](/aws-serverless-webapp-workshop/images/API-invokeURL.png)

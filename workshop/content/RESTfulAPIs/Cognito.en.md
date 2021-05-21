@@ -25,7 +25,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 1. Enter `Authorization` for the **Token Source**.
 1. Choose **Create**.
 
-    ![Create user pool authorizer screenshot](/images/create-user-pool-authorizer.png)
+    ![Create user pool authorizer screenshot](/aws-serverless-webapp-workshop/images/create-user-pool-authorizer.png)
 
 #### Verify your authorizer configuration
 
@@ -37,7 +37,7 @@ In the Amazon API Gateway console, create a new Cognito user pool authorizer for
 1. Go back to previous tab where you have just finished creating the Authorizer
 1. Click **Test** at the bottom of the card for the authorizer.
 1. Paste the auth token into the **Authorization Token** field in the popup dialog.
-    ![Test Authorizer screenshot](/images/apigateway-test-authorizer.png)
+    ![Test Authorizer screenshot](/aws-serverless-webapp-workshop/images/apigateway-test-authorizer.png)
 
 1. Click **Test** button and verify that the response code is 200 and that you see the claims for your user displayed.
 

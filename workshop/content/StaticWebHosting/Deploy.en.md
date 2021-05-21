@@ -30,23 +30,23 @@ Now you need to create a new service role with the permissions to deploy the app
     
 **:warning:** In the picture below prefixes are for sample user *Jan Nowak* with *jn* as initials.
 
-![Amplify Repository configuration](/images/amplifyConsole-setup-new1.png)
+![Amplify Repository configuration](/aws-serverless-webapp-workshop/images/amplifyConsole-setup-new1.png)
 1. Select **Next**
 1. On the **Review** page select **Save and deploy**
     
     This initial build and deploy process may take up to five minutes for Amplify Console to create the neccesary resources and to deploy your code.
     
-    ![Amplify Deployment](/images/amplify-deploy-status.png)
+    ![Amplify Deployment](/aws-serverless-webapp-workshop/images/amplify-deploy-status.png)
 
 Once completed, click the **site image** to launch your Wild Rydes site.
 
-![Wild Rydes homepage screenshot](/images/wildrydes-homepage.png)
+![Wild Rydes homepage screenshot](/aws-serverless-webapp-workshop/images/wildrydes-homepage.png)
 
 {{% notice note %}}
 If you follow the link for **Master** you'll see various pieces of information about your website deployment, including sample renderings on various platforms:
 {{% /notice %}}
 
-![Amplify Client Renderings](/images/amplify-renderings.png)
+![Amplify Client Renderings](/aws-serverless-webapp-workshop/images/amplify-renderings.png)
 
 [amplify-console]: https://aws.amazon.com/amplify/console/
 [amplify-console-console]: https://console.aws.amazon.com/amplify/home

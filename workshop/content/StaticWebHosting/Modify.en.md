@@ -33,6 +33,6 @@ The AWS Amplify Console will rebuild and redeploy the app when it detects change
 
 1. Once completed, re-open the Wild Rydes site and notice the title change.
     
-    ![title updated](/images/title-update.png)
+    ![title updated](/aws-serverless-webapp-workshop/images/title-update.png)
 
 [amplify-console]: https://console.aws.amazon.com/amplify/home

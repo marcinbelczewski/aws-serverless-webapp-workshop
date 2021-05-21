@@ -13,6 +13,6 @@ Please select **US East (N. Virginia)** in the top right corner.
 
 Once you've chosen a region, you should deploy all of the resources for this workshop there. Make sure you select your region from the dropdown in the upper right corner of the AWS Console before getting started.
 
-![Region selection screenshot](/images/region-selection.png)
+![Region selection screenshot](/aws-serverless-webapp-workshop/images/region-selection.png)
 
 [region-services]: https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/

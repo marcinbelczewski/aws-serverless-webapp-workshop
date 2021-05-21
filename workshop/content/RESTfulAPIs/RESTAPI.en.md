@@ -21,6 +21,6 @@ Edge optimized APIs are best for public services being accessed from the Interne
 {{% /notice %}}
 1. Choose **Create API**
 
-    ![Create API screenshot](/images/create-api.png)
+    ![Create API screenshot](/aws-serverless-webapp-workshop/images/create-api.png)
 
 [api-gw-console]: https://console.aws.amazon.com/apigateway/home
