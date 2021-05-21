@@ -16,7 +16,7 @@ AWS Lambda runs your code in response to events such as an HTTP request. In this
 
 Use the AWS Lambda console to create a new Lambda function called `%INITIALS%-RequestUnicorn` that processes API requests. Copy and paste [this example implementation](requestUnicorn.js) into the AWS Lambda console's editor for your function code.
 
-Configure your function to use the `WildRydesLambda` IAM role you created in the previous section.
+Configure your function to use the `%INITIALS%-WildRydesLambda` IAM role you created in the previous section.
 
 **:white_check_mark: Step-by-step directions**
 
