@@ -8,7 +8,7 @@ weight = 10
 
 ### 1. Create an Amazon DynamoDB Table
 
-Use the [Amazon DynamoDB Console][dynamodb-console] to create a new [DynamoDB][dynamodb] table. Call your table `Rides` and give it a partition key called `RideId` with type String. The table name and partition key are case sensitive. Make sure you use the exact IDs provided. Use the defaults for all other settings.
+Use the [Amazon DynamoDB Console][dynamodb-console] to create a new [DynamoDB][dynamodb] table. Call your table `%INITIALS%-Rides` and give it a partition key called `RideId` with type String. The table name and partition key are case sensitive. Make sure you use the exact IDs provided. Use the defaults for all other settings.
 
 After you've created the table, record the ARN for use in the next step.
 
