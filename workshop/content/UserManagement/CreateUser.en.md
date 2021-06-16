@@ -39,7 +39,7 @@ If you get an ` Authentication Error  ` this is likely because your changes have
     1. You should see a user corresponding to the email address that you submitted through the registration page. Choose that username to view the user detail page.
     1. Choose **Confirm user** to finalize the account creation process.
 
-1. After confirming the new user using either the verrification code or the Cognito console, click on the **back to sign in** link or refresh the **/auth** page and log in using the email address and password you entered during the registration step.
+1. After confirming the new user using either the verification code or the Cognito console, click on the **back to sign in** link or refresh the **/auth** page and log in using the email address and password you entered during the registration step.
 
 1. If successful you should be redirected to `/ride`. You should see a notification that the API is not configured.
 

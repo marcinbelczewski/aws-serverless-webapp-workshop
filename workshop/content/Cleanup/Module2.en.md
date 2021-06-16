@@ -7,7 +7,8 @@ weight = 30
 +++
 
 ### 3. Module 2 - User Management Cleanup
-Delete the Amazon Cognito User Pool
+
+#### Amazon Cognito User Pool
 
 **:white_check_mark: Step-by-step directions**
 
@@ -15,6 +16,16 @@ Delete the Amazon Cognito User Pool
 1. Choose **Manage your User Pools**.
 1. Select the user pool you created in module 2. **:warning:** Ensure you have not selected another workshop participant's user pool! If you forgot the name of your Cognito User Pool, refer to [User Management]({{< ref "/UserManagement/AppClient.en.md" >}}) for instructions on how to retrieve it.
 1. Choose **Delete Pool** in the upper right corner of the page.
-1. Complete the application deletion process.
+1. Complete the pool deletion process.
 
 [cognito-console]: https://console.aws.amazon.com/cognito/home
+
+
+#### AWS Amplify stack created from Cloud9
+
+Run the following command from within your Cloud9 terminal window
+```
+amplify delete
+```
+
+and confirm that you are sure to continue.

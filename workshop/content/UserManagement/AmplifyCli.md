@@ -20,7 +20,7 @@ AWS Amplify Authentication module provides Authentication APIs and building bloc
 
 1. Install the Amplify CLI by running the following command from within your Cloud9 terminal window:
     ```bash
-    npm install -g @aws-amplify/cli
+    npm install -g @aws-amplify/cli@4.29.4
     ```
 
     More information can be found in the documention  [here][amplify-install-cli]
